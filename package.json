@@ -4,8 +4,8 @@
 	"main": "index.js",
 	"license": "MIT",
 	"scripts": {
-		"dev": "npx tailwindcss -i tailwind.css -o ./src/css/style.css --watch",
-		"prod": "npx tailwindcss -i tailwind.css -o ./src/css/style.css --minify"
+		"dev": "npx tailwindcss -i tailwind.css -o css/style.css --watch",
+		"prod": "npx tailwindcss -i tailwind.css -o css/style.css --minify"
 	},
 	"devDependencies": {
 		"tailwindcss": "^3.0.15"
