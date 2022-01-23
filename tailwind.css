@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-violet-600;
+		@apply font-sans h-screen;
+		@apply grid place-items-center;
+	}
+}
+
+@layer utilities {
+	.show {
+		@apply inline-grid;
+	}
+
+	.active {
+		@apply bg-violet-600 text-white shadow-sm;
+	}
+}
